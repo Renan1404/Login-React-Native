@@ -28,14 +28,12 @@ const LoginScreen = () => {
   const [senha, setSenha] = useState('');
 
   const handleLogin = () => {
-    // Simular login (substitua com sua lógica de autenticação)
     console.log('Usuário:', nome);
     console.log('Senha:', senha);
     alert('Login efetuado com sucesso!');
   };
 
   const handleCadastro = () => {
-    // Simular navegação para tela de cadastro (substitua com sua navegação)
     alert('Cadastro em breve!');
   };
 
